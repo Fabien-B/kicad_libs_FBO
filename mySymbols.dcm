@@ -23,6 +23,12 @@ K 802.11 Wi-Fi
 F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 $ENDCMP
 #
+$CMP MAX6818
+D Octal Switch  Debouncer, SSOP
+K Switch Debouncer
+F https://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf
+$ENDCMP
+#
 $CMP MCP2551-I-SN
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC8 package
 K High-Speed CAN Transceiver
