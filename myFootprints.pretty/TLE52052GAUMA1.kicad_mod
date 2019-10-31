@@ -1,4 +1,4 @@
-(module TLE52052GAUMA1 (layer F.Cu) (tedit 5C73A8E9)
+(module TLE52052GAUMA1 (layer F.Cu) (tedit 5DB9BA18)
   (descr PG-TO263-7-11)
   (tags "Integrated Circuit")
   (attr smd)
@@ -28,5 +28,6 @@
   (pad 5 smd rect (at 1.27 5.325) (size 0.8 4.6) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 2.54 5.325) (size 0.8 4.6) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 3.81 5.325) (size 0.8 4.6) (layers F.Cu F.Paste F.Mask))
-  (pad 8 smd rect (at 0 -3.825 90) (size 9.4 10.8) (layers F.Cu F.Paste F.Mask))
+  (pad 8 smd rect (at 0 -3.825 90) (size 9.4 10.8) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2))
 )
