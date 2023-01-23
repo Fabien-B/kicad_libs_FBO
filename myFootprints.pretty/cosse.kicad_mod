@@ -14,6 +14,10 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a2f69e06-69ef-42f4-b34e-8d9b8d64c1a6)
   )
+  (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer "F.CrtYd") (width 0.05) (tstamp 02257946-3b6c-4843-bda4-1880530abb4d))
+  (fp_line (start -3.81 -1.27) (end 3.81 -1.27) (layer "F.CrtYd") (width 0.05) (tstamp cc27a7c7-69ab-4a31-bfc4-c385c9475867))
+  (fp_line (start 3.81 1.27) (end -3.81 1.27) (layer "F.CrtYd") (width 0.05) (tstamp fbcd86a3-2111-4126-bfa7-7b3d99f12302))
+  (fp_line (start 3.81 -1.27) (end 3.81 1.27) (layer "F.CrtYd") (width 0.05) (tstamp fcaf70d8-9f3f-4259-b8e8-0a6f3ce4ecbd))
   (pad "1" thru_hole circle (at 2.54 0) (size 3 3) (drill 1.7) (layers *.Cu *.Mask) (tstamp 65cc10f0-4a5a-4c82-b23a-7bc7cb96628e))
   (pad "1" thru_hole circle (at -2.54 0) (size 3 3) (drill 1.7) (layers *.Cu *.Mask) (tstamp b99b4d4c-8f5b-4776-9ba8-83665800f2f5))
   (model "${KIPRJMOD}/kicad_libs_FBO/packages3d/cosse.stp"
